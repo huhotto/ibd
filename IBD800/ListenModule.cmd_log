@@ -1,0 +1,1 @@
+vhdtdtfi -prj IBS300 -o E:/CODE/IBD/IBS300/ListenModule.vhi -module ListenModule -template d:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work src/parallel_to_i2s.vhd -lib work src/i2s_to_parallel.vhd -lib work src/EDGEDETECT.VHD -lib work src/ListenModule.vhd 

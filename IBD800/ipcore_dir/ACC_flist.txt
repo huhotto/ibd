@@ -1,0 +1,16 @@
+# Output products list for <ACC>
+ACC.asy
+ACC.gise
+ACC.ngc
+ACC.sym
+ACC.vhd
+ACC.vho
+ACC.xco
+ACC.xise
+ACC\doc\c_accum_v11_0_readme.txt
+ACC\doc\c_accum_v11_0_vinfo.html
+ACC\doc\ds213_accum.pdf
+ACC_flist.txt
+ACC_xmdf.tcl
+core_resources.txt
+gui_latency.txt

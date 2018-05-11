@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">ixysum&lt;8&gt;</arg> has no load.
+</msg>
+
+<msg type="info" file="LIT" num="395" delta="old" >The above <arg fmt="%s" index="1">info</arg> message is repeated <arg fmt="%d" index="2">535</arg> more times for the following (max. 5 shown):
+<arg fmt="%s" index="3">ixysum&lt;7&gt;,
+ixysum&lt;6&gt;,
+ixysum&lt;5&gt;,
+ixysum&lt;4&gt;,
+ixysum&lt;3&gt;</arg>
+To see the details of these <arg fmt="%s" index="4">info</arg> messages, please use the -detail switch.
+</msg>
+
+<msg type="info" file="MapLib" num="562" delta="old" >No environment variables are currently set.
+</msg>
+
+<msg type="info" file="LIT" num="244" delta="old" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
+</msg>
+
+<msg type="info" file="Pack" num="1716" delta="old" >Initializing temperature to <arg fmt="%0.3f" index="1">85.000</arg> Celsius. (default - Range: <arg fmt="%0.3f" index="2">0.000</arg> to <arg fmt="%0.3f" index="3">85.000</arg> Celsius)
+</msg>
+
+<msg type="info" file="Pack" num="1720" delta="old" >Initializing voltage to <arg fmt="%0.3f" index="1">1.140</arg> Volts. (default - Range: <arg fmt="%0.3f" index="2">1.140</arg> to <arg fmt="%0.3f" index="3">1.260</arg> Volts)
+</msg>
+
+<msg type="info" file="Map" num="215" delta="old" >The Interim Design Summary has been generated in the MAP Report (.mrp).
+</msg>
+
+<msg type="warning" file="Place" num="1206" delta="old" >This design contains a global buffer instance, &lt;<arg fmt="%s" index="1">Inst_CLKGEN/iExt18432_BUFG</arg>&gt;, driving the net, &lt;<arg fmt="%s" index="2">ArmIISMclk_OBUF</arg>&gt;, that is driving the following (first <arg fmt="%d" index="3">30</arg>) non-clock load pins off chip.
+<arg fmt="%s" index="4">&lt; PIN: ArmIISMclk.O; &gt;
+</arg>This design practice, in Spartan-6, can lead to an unroutable situation due to limitations in the global routing. If the design does route there may be excessive delay or skew on this net. It is recommended to use a Clock Forwarding technique to create a reliable and repeatable low skew solution: instantiate an ODDR2 component; tie the .D0 pin to Logic1; tie the .D1 pin to Logic0; tie the clock net to be forwarded to .C0; tie the inverted clock to .C1. This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN &lt;<arg fmt="%s" index="5">Inst_CLKGEN/iExt18432_BUFG</arg>.<arg fmt="%s" index="6">O</arg>&gt; allowing your design to continue. This constraint disables all clock placer rules related to the specified COMP.PIN.
+</msg>
+
+<msg type="warning" file="Place" num="1137" delta="old" >This design is not guaranteed to be routable! This design contains a global buffer instance, &lt;<arg fmt="%s" index="1">Inst_CLKGEN/sys_INST1</arg>&gt;, driving the net, &lt;<arg fmt="%s" index="2">iGSysMclk</arg>&gt;, that is driving the following (first <arg fmt="%d" index="3">30</arg>) non-clock load pins.
+<arg fmt="%s" index="4">&lt; PIN: CorrelationTop_INST/CorrelationRamCntl_INST/Mmux_clkb_o11.A4; &gt;
+</arg>This is not a recommended design practice in Spartan-6 due to limitations in the global routing that may cause excessive delay, skew or unroutable situations.  It is recommended to only use a BUFG resource to drive clock loads. Please pay extra attention to the timing and routing of this path to ensure the design goals are met. This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN &lt;<arg fmt="%s" index="5">Inst_CLKGEN/sys_INST1</arg>.<arg fmt="%s" index="6">O</arg>&gt; allowing your design to continue. This constraint disables all clock placer rules related to the specified COMP.PIN.
+</msg>
+
+<msg type="warning" file="Place" num="1137" delta="old" >This design is not guaranteed to be routable! This design contains a global buffer instance, &lt;<arg fmt="%s" index="1">Inst_CLKGEN/sys_INST3</arg>&gt;, driving the net, &lt;<arg fmt="%s" index="2">iGSysFsclk</arg>&gt;, that is driving the following (first <arg fmt="%d" index="3">30</arg>) non-clock load pins.
+<arg fmt="%s" index="4">&lt; PIN: ListenModule_inst/Mmux_FPGAI2Sout_GND_752_o_MUX_2081_o14_G.A3; &gt;
+&lt; PIN: ListenModule_inst/Mmux_FPGAI2Sout_GND_752_o_MUX_2081_o14_F.A3; &gt;
+&lt; PIN: ListenModule_inst/Mmux_FPGAI2Sout_GND_752_o_MUX_2081_o1111_G.A1; &gt;
+&lt; PIN: ListenModule_inst/Mmux_FPGAI2Sout_GND_752_o_MUX_2081_o1111_F.A2; &gt;
+&lt; PIN: ListenModule_inst/Mmux_I2Sinter_GND_752_o_MUX_2108_o12_SW0_G.A2; &gt;
+&lt; PIN: ListenModule_inst/Mmux_I2Sinter_GND_752_o_MUX_2108_o12_SW0_F.A2; &gt;
+&lt; PIN: ListenModule_inst/Mmux_I2Sinter_GND_752_o_MUX_2108_o17.A2; &gt;
+&lt; PIN: ListenModule_inst/currlrclk.D; &gt;
+&lt; PIN: ListenModule_inst/Mmux_I2Sinter_GND_752_o_MUX_2108_o11.A1; &gt;
+&lt; PIN: ListenModule_inst/Mmux_FPGAI2Sout_GND_752_o_MUX_2081_o1121.A3; &gt;
+&lt; PIN: ListenModule_inst/Mmux_I2Sinter_GND_752_o_MUX_2108_o12.A4; &gt;
+&lt; PIN: ListenModule_inst/_n0231_inv1.A5; &gt;
+&lt; PIN: ListenModule_inst/Mmux_I2Sinter_GND_752_o_MUX_2108_o14.A3; &gt;
+&lt; PIN: ListenModule_inst/Mmux_I2Sinter_GND_752_o_MUX_2108_o1121.A4; &gt;
+&lt; PIN: CorrelationTop_INST/CorrelationRamCntl_INST/Mmux_clkb_o11.A5; &gt;
+&lt; PIN: VuMeter/FS_EDGE_INST/FDCENO_0.D; &gt;
+&lt; PIN: IISToSTP/SHIFT_RST_INST/Mxor_EDGE_xo&lt;0&gt;1.A5; &gt;
+&lt; PIN: IISToSTP/SHIFT_RST_INST/FDCENO_0.D; &gt;
+</arg>This is not a recommended design practice in Spartan-6 due to limitations in the global routing that may cause excessive delay, skew or unroutable situations.  It is recommended to only use a BUFG resource to drive clock loads. Please pay extra attention to the timing and routing of this path to ensure the design goals are met. This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN &lt;<arg fmt="%s" index="5">Inst_CLKGEN/sys_INST3</arg>.<arg fmt="%s" index="6">O</arg>&gt; allowing your design to continue. This constraint disables all clock placer rules related to the specified COMP.PIN.
+</msg>
+
+<msg type="warning" file="Place" num="1137" delta="old" >This design is not guaranteed to be routable! This design contains a global buffer instance, &lt;<arg fmt="%s" index="1">Inst_CLKGEN/iExt18432_BUFG</arg>&gt;, driving the net, &lt;<arg fmt="%s" index="2">ArmIISMclk_OBUF</arg>&gt;, that is driving the following (first <arg fmt="%d" index="3">30</arg>) non-clock load pins.
+<arg fmt="%s" index="4">&lt; PIN: ArmIISMclk.O; &gt;
+</arg>This is not a recommended design practice in Spartan-6 due to limitations in the global routing that may cause excessive delay, skew or unroutable situations.  It is recommended to only use a BUFG resource to drive clock loads. Please pay extra attention to the timing and routing of this path to ensure the design goals are met. This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN &lt;<arg fmt="%s" index="5">Inst_CLKGEN/iExt18432_BUFG</arg>.<arg fmt="%s" index="6">O</arg>&gt; allowing your design to continue. This constraint disables all clock placer rules related to the specified COMP.PIN.
+</msg>
+
+<msg type="info" file="Pack" num="1650" delta="old" >Map created a placed design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">ADFsclk1_OBUF</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">iMaxStore</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">Inst_CLKGEN/rst_inv</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">Communication_inst/iFPRdPrep_iFPRdPrep_OR_388_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">ChannelModule/GLOBAL_LOGIC1</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">ListenModule_inst/GLOBAL_LOGIC0</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="info" file="PhysDesignRules" num="1861" delta="old" >To achieve optimal frequency synthesis performance with the CLKFX and CLKFX180 outputs of the DCM comp <arg fmt="%s" index="1">Inst_CLKGEN/dcm_sp_inst</arg>, consult the device Data Sheet.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">MeterCheck_inst/GLOBAL_LOGIC0</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">CorrelationTop_INST/CorrTop_INST/XYMAC_INST/y_yAver_inst1/GLOBAL_LOGIC0</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">CorrelationTop_INST/CorrTop_INST/XYMAC_INST/x_xAver_inst0/GLOBAL_LOGIC0</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="old" ><arg fmt="%s" index="1">PULLUP</arg> on an active net. <arg fmt="%s" index="2">PULLUP</arg> of comp <arg fmt="%s" index="3">TQ_5_PULLUP</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="old" ><arg fmt="%s" index="1">PULLDOWN</arg> on an active net. <arg fmt="%s" index="2">PULLDOWN</arg> of comp <arg fmt="%s" index="3">GPO&lt;0&gt;_PULLDOWN</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="old" ><arg fmt="%s" index="1">PULLDOWN</arg> on an active net. <arg fmt="%s" index="2">PULLDOWN</arg> of comp <arg fmt="%s" index="3">GPO&lt;1&gt;_PULLDOWN</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="old" ><arg fmt="%s" index="1">PULLDOWN</arg> on an active net. <arg fmt="%s" index="2">PULLDOWN</arg> of comp <arg fmt="%s" index="3">GPO&lt;2&gt;_PULLDOWN</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="old" ><arg fmt="%s" index="1">PULLDOWN</arg> on an active net. <arg fmt="%s" index="2">PULLDOWN</arg> of comp <arg fmt="%s" index="3">GPO&lt;3&gt;_PULLDOWN</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="old" ><arg fmt="%s" index="1">PULLDOWN</arg> on an active net. <arg fmt="%s" index="2">PULLDOWN</arg> of comp <arg fmt="%s" index="3">GPO&lt;4&gt;_PULLDOWN</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="old" ><arg fmt="%s" index="1">PULLDOWN</arg> on an active net. <arg fmt="%s" index="2">PULLDOWN</arg> of comp <arg fmt="%s" index="3">GPO&lt;5&gt;_PULLDOWN</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="old" ><arg fmt="%s" index="1">PULLDOWN</arg> on an active net. <arg fmt="%s" index="2">PULLDOWN</arg> of comp <arg fmt="%s" index="3">GPO&lt;6&gt;_PULLDOWN</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="old" ><arg fmt="%s" index="1">PULLDOWN</arg> on an active net. <arg fmt="%s" index="2">PULLDOWN</arg> of comp <arg fmt="%s" index="3">GPO&lt;7&gt;_PULLDOWN</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="old" ><arg fmt="%s" index="1">PULLUP</arg> on an active net. <arg fmt="%s" index="2">PULLUP</arg> of comp <arg fmt="%s" index="3">ADFsclk1_PULLUP</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="old" ><arg fmt="%s" index="1">PULLUP</arg> on an active net. <arg fmt="%s" index="2">PULLUP</arg> of comp <arg fmt="%s" index="3">ADBclk1_PULLUP</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="old" ><arg fmt="%s" index="1">PULLUP</arg> on an active net. <arg fmt="%s" index="2">PULLUP</arg> of comp <arg fmt="%s" index="3">ADBclk2_PULLUP</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="old" ><arg fmt="%s" index="1">PULLUP</arg> on an active net. <arg fmt="%s" index="2">PULLUP</arg> of comp <arg fmt="%s" index="3">ADMclk1_PULLUP</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="781" delta="old" ><arg fmt="%s" index="1">PULLUP</arg> on an active net. <arg fmt="%s" index="2">PULLUP</arg> of comp <arg fmt="%s" index="3">ADMclk2_PULLUP</arg> is set but the tri state is not configured. 
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2410" delta="old" >This design is using one or more 9K Block RAMs (RAMB8BWER).  9K Block RAM initialization data, both user defined and default, may be incorrect and should not be used.  For more information, please reference Xilinx Answer Record 39999.
+</msg>
+
+</messages>
+

@@ -1,0 +1,35 @@
+Release 14.7 - par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Mon Apr 02 11:21:26 2018
+
+All signals are completely routed.
+
+WARNING:ParHelpers:361 - There are 23 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   AudioIn<4>_IBUF
+   AudioIn<5>_IBUF
+   AudioIn<6>_IBUF
+   AudioIn<7>_IBUF
+   DanteSDOUT<4>_IBUF
+   DanteSDOUT<5>_IBUF
+   DanteSDOUT<6>_IBUF
+   DanteSDOUT<7>_IBUF
+   IISFromDSP<0>_IBUF
+   IISFromDSP<1>_IBUF
+   IISFromDSP<2>_IBUF
+   IISFromDSP<3>_IBUF
+   MADI_Data<0>_IBUF
+   MADI_Data<1>_IBUF
+   MADI_Data<2>_IBUF
+   MADI_Data<3>_IBUF
+   MeterCheck_inst/iCaculateEn
+   MuteIn_IBUF
+   RERRA<3>_IBUF
+   RERRA<4>_IBUF
+   RERRA<5>_IBUF
+   RERRA<6>_IBUF
+   RERRA<7>_IBUF
+
+

@@ -1,0 +1,9 @@
+#ifndef __masterSPI3_H
+#define __masterSPI3_H
+
+extern void masterSPI3_Init(void);
+extern void SPI3_WriteByte(unsigned char TxData);
+extern unsigned char SPI3_ReadByte(void);
+extern void Spi_En(void);
+extern void Spi_Disable(void);
+#endif

@@ -1,0 +1,13 @@
+Storage Target: Xilinx Flash/PROM
+Storage Family: Platform Flash
+xcf08p          [8 M]
+FF
+IBS20170420
+D:/program_hj/IBS300/mcs
+
+MCS
+Yes
+1
+No
+
+No

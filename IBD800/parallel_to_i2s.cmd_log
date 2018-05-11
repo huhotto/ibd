@@ -1,0 +1,1 @@
+vhdtdtfi -prj IBS300 -o E:/CODE/IBD/IBS300/parallel_to_i2s.vhi -module parallel_to_i2s -template d:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work src/parallel_to_i2s.vhd 

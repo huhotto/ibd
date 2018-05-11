@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o E:\IBS300\FPGA_PROG\IBS300\//Test20170317 -x xcf08p -ver 0 E:/IBS300/FPGA_PROG/IBS300/ibs300top.bit 
+
+PROM E:\IBS300\FPGA_PROG\IBS300\Test20170317.prm map: Fri Apr 14 17:49:16 2017
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          1024K
+PROM start    0000:0000
+PROM end      000f:ffff
+PROM checksum 04817dde
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    000c:401d     Mar 17 11:46:40 2017 E:/IBS300/FPGA_PROG/IBS300/ibs300top.bit

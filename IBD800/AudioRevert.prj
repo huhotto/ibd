@@ -1,0 +1,2 @@
+vhdl work "src/EDGEDETECT.VHD"
+vhdl work "src/AudioRevert.vhd"

@@ -1,0 +1,8 @@
+#ifndef __KEY_LED_H
+#define __KEY_LED_H
+#include "IBD_type.h"
+extern void keyGpioInit(void);
+extern void ExtInterruptInit(void);
+extern void LedGPIOInit(void);
+extern void Led_Display(LED_STR *Led_status);
+#endif

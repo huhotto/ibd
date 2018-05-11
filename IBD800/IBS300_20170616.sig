@@ -1,0 +1,7 @@
+// PROMGEN: Xilinx Prom Generator P.20131013
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+DATE      06/16/17-11:26
+SOURCE    E:\IBS300\FPGA_PROG\IBS3001\IBS300_20170616.mcs
+DEVICE    XCF08P
+SIGNATURE 0x04810E36

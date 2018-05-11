@@ -1,0 +1,15 @@
+# Output products list for <SQRRoot>
+SQRRoot.asy
+SQRRoot.gise
+SQRRoot.ngc
+SQRRoot.sym
+SQRRoot.vhd
+SQRRoot.vho
+SQRRoot.xco
+SQRRoot.xise
+SQRRoot\doc\cordic_ds249.pdf
+SQRRoot\doc\cordic_v4_0_vinfo.html
+SQRRoot_flist.txt
+SQRRoot_readme.txt
+SQRRoot_xmdf.tcl
+_xmsgs\pn_parser.xmsgs

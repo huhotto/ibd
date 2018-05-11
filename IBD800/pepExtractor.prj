@@ -1,0 +1,4 @@
+work	"src/EDGEDETECT.VHD"
+work	"src/ListenModule.vhd"
+work	"src/i2s_to_parallel.vhd"
+work	"src/parallel_to_i2s.vhd"

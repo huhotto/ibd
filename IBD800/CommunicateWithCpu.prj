@@ -1,0 +1,5 @@
+vhdl work "ipcore_dir/divider.vhd"
+vhdl work "ipcore_dir/DRAM_Reg.vhd"
+vhdl work "src/Spi.vhd"
+vhdl work "src/FPGARegs.vhd"
+vhdl work "src/CommunicateWithCpu.vhd"

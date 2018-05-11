@@ -1,0 +1,72 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to E:/CODE/IBD/IBS300/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to E:/CODE/IBD/IBS300/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: CommunicateWithCpu.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "E:\CODE\IBD\IBS300\ipcore_dir\divider.vhd" into library work
+Parsing VHDL file "E:\CODE\IBD\IBS300\ipcore_dir\DRAM_Reg.vhd" into library work
+Parsing entity <DRAM_Reg>.
+Parsing architecture <DRAM_Reg_a> of entity <dram_reg>.
+Parsing VHDL file "E:\CODE\IBD\IBS300\src\Spi.vhd" into library work
+Parsing entity <Spi>.
+Parsing architecture <Behavioral> of entity <spi>.
+WARNING:HDLCompiler:946 - "E:\CODE\IBD\IBS300\src\Spi.vhd" Line 83: Actual for formal port c is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\CODE\IBD\IBS300\src\Spi.vhd" Line 86: Actual for formal port c is neither a static name nor a globally static expression
+Parsing VHDL file "E:\CODE\IBD\IBS300\src\FPGARegs.vhd" into library work
+Parsing package <FPGARegs>.
+Parsing package body <FPGARegs>.
+Parsing VHDL file "E:\CODE\IBD\IBS300\src\CommunicateWithCpu.vhd" into library work
+Parsing entity <CommunicateWithCpu>.
+Parsing architecture <Behavioral> of entity <communicatewithcpu>.
+WARNING:HDLCompiler:946 - "E:\CODE\IBD\IBS300\src\CommunicateWithCpu.vhd" Line 303: Actual for formal port wea is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:\CODE\IBD\IBS300\src\CommunicateWithCpu.vhd" Line 309: Actual for formal port web is neither a static name nor a globally static expression
+WARNING:HDLCompiler:701 - "E:\CODE\IBD\IBS300\src\CommunicateWithCpu.vhd" Line 823: Partially associated formal quotient cannot have actual OPEN
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.23 secs
+ 
+--> 
+
+Total memory usage is 191792 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

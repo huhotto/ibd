@@ -1,0 +1,34 @@
+Release 14.7 ngcbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngcbuild.exe -dd E:/IBS300Save20170616/_ngo -sd ipcore_dir -p
+xc6slx25-ftg256-2 -i E:\IBS300Save20170616\IBS300Top.ngc
+E:\IBS300Save20170616\IBS300Top_cs.ngc
+
+Reading NGO file "E:/IBS300Save20170616/IBS300Top.ngc" ...
+Loading design module "ipcore_dir/DRAM_Reg.ngc"...
+Loading design module "ipcore_dir/divider.ngc"...
+Loading design module "ipcore_dir/ACC.ngc"...
+Loading design module "ipcore_dir/DRAM_New.ngc"...
+Loading design module "ipcore_dir/mul_new.ngc"...
+Loading design module "ipcore_dir/SQRRoot.ngc"...
+Loading design module "ipcore_dir/MUL21_new.ngc"...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 188232 kilobytes
+
+Writing NGC file "E:/IBS300Save20170616/IBS300Top_cs.ngc" ...
+Total REAL time to NGCBUILD completion:  3 sec
+Total CPU time to NGCBUILD completion:   3 sec
+
+Writing NGCBUILD log file "E:/IBS300Save20170616/IBS300Top_cs.blc"...

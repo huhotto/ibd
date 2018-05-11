@@ -1,0 +1,1 @@
+vhdtdtfi -prj IBS300 -o E:/IBS300/AudioRevert.vhi -module AudioRevert -template d:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work src/EDGEDETECT.VHD -lib work src/AudioRevert.vhd 

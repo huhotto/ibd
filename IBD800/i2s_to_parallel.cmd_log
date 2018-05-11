@@ -1,0 +1,2 @@
+vhdtdtfi -prj IBS300 -o E:/CODE/IBD/IBS300/i2s_to_parallel.vhi -module i2s_to_parallel -template d:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work src/i2s_to_parallel.vhd 
+xst -intstyle ise -ifn "E:/CODE/IBD/IBS300/i2s_to_parallel.xst" -ofn "E:/CODE/IBD/IBS300/i2s_to_parallel.syr" 

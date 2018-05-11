@@ -1,0 +1,8 @@
+vhdtdtfi -prj IBS300 -o E:/CODE/IBD/IBS300/CLKGEN.vhi -module CLKGEN -template d:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work src/EDGEDETECT.VHD -lib work src/CLKGEN.vhd 
+vhdtdtfi -prj IBS300 -o E:/CODE/IBD/IBS300/CLKGEN.vhi -module CLKGEN -template d:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work src/EDGEDETECT.VHD -lib work src/CLKGEN.vhd 
+vhdtdtfi -prj IBS300 -o E:/CODE/IBD/IBS300/CLKGEN.vhi -module CLKGEN -template d:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work src/EDGEDETECT.VHD -lib work src/CLKGEN.vhd 
+vhdtdtfi -prj IBS300 -o E:/CODE/IBD/IBS300/CLKGEN.vhi -module CLKGEN -template d:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work src/EDGEDETECT.VHD -lib work src/CLKGEN.vhd 
+vhdtdtfi -prj IBS300 -o E:/CODE/IBD/IBS300/CLKGEN.vhi -module CLKGEN -template d:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work src/EDGEDETECT.VHD -lib work src/CLKGEN.vhd 
+vhdtdtfi -prj IBS300 -o E:/CODE/IBD/IBS300/CLKGEN.vhi -module CLKGEN -template d:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work src/EDGEDETECT.VHD -lib work src/CLKGEN.vhd 
+vhdtdtfi -prj IBS300 -o E:/CODE/IBD/IBS300/CLKGEN.vhi -module CLKGEN -template d:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work src/EDGEDETECT.VHD -lib work src/CLKGEN.vhd 
+vhdtdtfi -prj IBS300 -o E:/CODE/IBD/IBS300/CLKGEN.vhi -module CLKGEN -template d:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work src/EDGEDETECT.VHD -lib work src/CLKGEN.vhd 
