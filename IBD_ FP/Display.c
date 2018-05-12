@@ -651,7 +651,7 @@ void IBD_Fun(void)
   unsigned char key_lock_tmp;
 
 	GetTimePara();
-	//ReadMode();
+	ReadMode();
 	key_process();
 	if(key_dump_tmp )
 		{

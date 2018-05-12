@@ -167,10 +167,8 @@ void  key_sneeze_scan(void)
 uint8_t Key_Lock_Scan(void)
 {
 	uint8_t tmp0=0;
-	if(GPIO_ReadInputDataBit(GPIOA,Key_Key8_pin))
-		tmp0 = 0; //dealy
-	else
-		tmp0=  1;//main page
+	tmp0=(GPIO_ReadInputDataBit(GPIOA,Key_Key8_pin) ? 1:0);
+	
 	
    tmp0 += (Key_lock_flag <<1);
 	 Key_lock_flag = tmp0 & 0x01;
